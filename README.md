@@ -19,48 +19,74 @@ suppliers
 Below topics are analyzed on Power BI 
 
 -- REVENUE ANALYSIS; 
+
 -- Total revenue
+
 -- Revenues by date 
+
 -- Revenue change rate
+
 -- Revenues by categories
+
 -- Discount rate distrubition
 
 -- PRODUCT ANALYSIS
+
 -- Category preferences 
+
 -- Product Preferences
+
 -- Analysis by countries on map 
 
 -- LOGISTIC ANALYSIS
+
 -- Shipper preferences
+
 -- Average shipment days for shippers
+
 -- Average shipment days for suppliers
 
 -- STOCK ANALYSIS
+
 -- Top products to be preferred 
+
 -- Stock management for top products to be preferred
 
 
 Below topics are analyzed on Python. These queries are connected to Python and analsis is performed. 
 
 -- EMPLOYEES PERFORMANCE 
+
 -- How many customer does each employee work with ?
+
 -- How long have they been working 
+
 -- Performance point is calculated by ratio of customer amounts to working days. (multiplied by 100 to get a significant number)
+
 -- Levels of employees are defined based on performance point(PP). 
+
      - Silver Employee: 1 <= PP < 2
+     
      - Bronze Employee: 2 <= PP < 3
+     
      - Golden Employee: 2 <= PP < 4 
 
 
 -- RFM ANALYSIS FOR CUSTOMERS 
+
 -- RFM, also known as RFM analysis, is a type of customer segmentation and behavioral targeting used to help businesses rank and segment customers based on the recency, frequency, and monetary value of a transaction. 
+
 -- Recency: How recently did the customer purchase?
 -- Frequency: How often do they purchase?
+
 -- Monetary Value: How much do they spend?
--- SCORES, 
+
 -- Now we can give scores by splitting of values for each customer.  From low (1) to high (5) score. 
+
 -- recency   --> from 1 to 5 / from longest difference to shortest difference 
+
 -- frequency --> from 1 to 5 / from more amount to less amount
+
 -- monetary  --> from 1 to 5 / from more payment to less payment
 
 -- At the end of anaysis, we can see overall results on single table. 
