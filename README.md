@@ -16,6 +16,8 @@ region,
 shippers, 
 suppliers
 
+
+
 Below topics are analyzed on Power BI 
 
 -- REVENUE ANALYSIS; 
