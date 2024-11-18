@@ -6,14 +6,14 @@ Python Analysis is in ipynb file
 
 Here are our tables in data,
 
-categories
-customers
-employees
-order_details
-orders
-products
-region
-shippers
+categories, 
+customers, 
+employees, 
+order_details, 
+orders, 
+products, 
+region, 
+shippers, 
 suppliers
 
 Below topics are analyzed on Power BI 
